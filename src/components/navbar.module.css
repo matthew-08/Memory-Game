@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    background-color: var(--primary);
+    color: var(--primary-text);
+}
+
+.nav h1 {
+    font-size: 4rem;
+    margin-left: 1rem;
+}
+
+.nav img {
+    height: 150px;
+    width: 170px;
+}

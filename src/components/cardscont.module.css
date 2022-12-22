@@ -1,0 +1,32 @@
+.cont {
+    width: 80%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.666);
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card>p {
+    color: rgb(40 44 52);
+    font-size: 1.5vw;
+    word-break: break-word;
+}
+
+.poke-card img {
+    width: 30px;
+}
